@@ -127,6 +127,8 @@ const getFactTopic = (topicName) => {
       case 'football':
       case 'soccer':
         return 'FOOTBALL_FACTS'
+      case 'motivation'
+        return 'MOTIVATION_FACTS'
       default:
         return 'SPACE_FACTS';
     }
@@ -371,6 +373,11 @@ const enData = {
         'Football is the most watched and most played sport on earth.',
         'The fastest goal ever scored took only 2.4 seconds.',
         'Only 8 countries have won the World Cup.',
+      ],
+    MOTIVATION_FACTS:
+      [
+        'You've got this.',
+        'If you can graduate from Duke you can handle anything',
       ],
   }
 };
